@@ -111,3 +111,27 @@ a{
     font-size: 2rem;
     text-align: center;
 }
+.section-3{
+    background-color:#E5E7EB;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.quote-container{
+    width:760px;
+    display: flex;
+    flex-direction: column;
+}
+.quote{
+    color:#1F2937;
+    font-weight: 300;
+    font-size:3.6rem;
+    margin-bottom:0;
+}
+.author{
+    font-weight: bold;
+    font-size:2.4rem;
+    margin-left:auto;
+    margin-top:0;
+}
