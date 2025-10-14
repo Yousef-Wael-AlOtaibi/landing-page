@@ -49,12 +49,12 @@ a{
     font-size:1.8rem;
     margin-top:0;
 }
-.hero-text-container{
+.text-container{
     width:400px;
     display: flex;
     flex-direction: column;
 }
-.action-button{
+.action-button, .action-container{
     padding:1rem 2rem;
     background:#3882F6;
     color:white;
@@ -62,7 +62,8 @@ a{
     font-size:2rem;
     font-weight:bold;
     align-items: center;
-    width:150px
+    width:150px;
+    border:2px solid white;
 }
 .hero{
     display: flex;
@@ -134,4 +135,22 @@ a{
     font-size:2.4rem;
     margin-left:auto;
     margin-top:0;
+}
+.section-4{
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action-container{
+    width:800px;
+    padding:3rem;
+    background-color: #3882F6;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.action-container .main-text{
+    font-size:2.4rem;
 }
